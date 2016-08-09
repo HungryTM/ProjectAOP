@@ -1,0 +1,105 @@
+body {
+    background: rgb(69, 69, 69);
+}
+
+.window{
+    margin: auto;
+    border: 1px solid #00fcff;
+    border-radius: 10px;
+    background: #444443;
+    box-shadow: rgba(0, 0, 0, .5) 3px 10px 10px 10px;
+    height: 500px;
+    width: 33.3%;
+    margin-top: 100px;
+    margin-left: 33.3%;
+}
+
+.window > .text{
+    text-align: center;
+    color: #00fcff;
+}
+
+.e-mail > .title-input{
+    margin-left: 25px;
+    color: #00fcff;
+}
+
+.e-mail > .input-e-mail{
+    background: rgb(69, 69, 69);
+    border-color: #00fcff;
+    border-radius: 10px;
+    color: #00fcff;
+    margin-left: 5%;
+    width: 90%;
+    height: 40px;
+}
+
+.input-e-mail:focus {
+    text-indent: 10px;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.password > .title-input{
+    margin-left: 25px;
+    color: #00fcff;
+}
+
+.password > .input-password{
+    background: rgb(69, 69, 69);
+    border-color: #00fcff;
+    border-radius: 10px;
+    color: #00fcff;
+    margin-left: 5%;
+    width: 90%;
+    height: 40px;
+}
+
+.input-password:focus {
+    text-indent: 10px;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.button{
+    margin-left: 75px;
+    margin-top: 25px;
+}
+
+.sign_in {
+    outline: none;
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    font-weight: bold;
+    color: rgba(255,255,255,.6);
+    text-shadow: 1px 1px rgba(0,0,0,.3);
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 15px;
+    background: rgb(1, 148, 141);
+    box-shadow:
+    inset 0 0 3px 1px rgba(0,0,0,.8),
+    inset rgba(0,0,0,.3) -5px -5px 8px 5px,
+    inset rgba(255,255,255,.5) 5px 5px 8px 5px,
+    1px 1px 1px rgba(255,255,255,.1),
+    -2px -2px 5px rgba(0,0,0,.5);
+    transition: .2s;
+}
+
+.sign_in:hover {
+  color: rgba(255,255,255,.9);
+  background: #00fcff;
+}
+
+.sign_in:active {
+  background: white;
+  box-shadow:
+   inset 0 0 5px 3px rgba(0,0,0,.8),
+   inset rgba(0,0,0,.3) -5px -5px 8px 5px,
+   inset rgba(255,255,255,.5) 5px 5px 8px 5px,
+   1px 1px 1px rgba(255,255,255,.2),
+   -2px -2px 5px rgba(0,0,0,.5);
+}
